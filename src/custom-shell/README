@@ -1,0 +1,7 @@
+Things that we need to consider
+
+1. check for .rc files for both /etc/blah.rc or current directory blah.rc, if not set base default ENV vars 
+2. while loop until they do the exit command 
+3. Look for key words 
+4. run check if the command is in the PATH and if yes, parse and run the command 
+5. Reloop and start the command all over again 
