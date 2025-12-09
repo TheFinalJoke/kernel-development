@@ -8,7 +8,7 @@ int main() {
     int number_of_items = 0;
     printf("Welcome to the Shopping Application!\n");
     printf("What do you want to put in the shopping cart?\n");
-    scanf("%99s", item);
+    scanf("%s", item);
     printf("What is the price of %s?\n", item);    
     scanf("%f", &price);
     printf("How many %s do you want to add to the cart?\n", item);
