@@ -22,4 +22,6 @@ int main() {
         }
     }
     printf("Number of answers correct is %d out of %d\n", answers_correct, question_count);
+
+    return 0; 
 }
